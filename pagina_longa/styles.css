@@ -1,0 +1,314 @@
+
+.my-class1 {
+    text-align: center;
+}
+
+.my-class2 {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.section1-paragraph2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+.section1-dot1 {
+    height: 3px;
+    width: 3px;
+    background-color: #9bb0c5;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative; top: 4px;
+}
+
+.section1-col-dots {
+    width: 27px;
+    height: 5px;
+}
+
+.section2-div-title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+.section2-div-paragraph {
+    opacity: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.section2-div-col {
+    width: 269px;
+    height: 85px;
+    margin-right: 50px;
+}
+
+.section2-div-icon {
+    position: relative; top: 28px;
+}
+
+.section2-div-col-icon {
+    width: 85px;
+    border: #9bb0c5 solid 2px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.section2-div-container {
+    position: relative; left: 26px;
+}
+
+#header-BG{
+    background-color: #f4f5f9;
+    padding-bottom: 10px;
+}
+
+#BG-Section1 {
+    background-color: #f4f5f9;
+}
+
+#BG-Section3{
+    background-color: #f4f5f9;
+    border-top: #9bb0c5 solid 1px;
+    border-bottom: #9bb0c5 solid 1px;
+}
+#container-img-logo {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+#section3-img {
+    border: #9bb0c5 solid 2px;
+    width: 700px;
+    height: 400px;
+}
+
+#section3-img-col{
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+#formulario1-box1{
+   background-color: white;
+   border: #9bb0c5 solid 1px;
+   width: 17%;
+   padding: 11px 30px;
+   border-radius: 4%;
+}
+
+#formulario1-box2{
+    background-color: white;
+    border: #9bb0c5 solid 1px;
+    width: 17%;
+    padding: 11px 30px;
+    border-radius: 4%;
+    margin-left: 25px;
+}
+#formulario1-button{
+    background-color: #6b8095;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 13%;
+    padding: 14px 30px;
+    border: none;
+    margin-left: 25px;
+    border-radius: 4%;
+    cursor: pointer;
+}
+#section1-title{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#section3-title{
+    margin-bottom: 22px;
+}
+
+#section1-paragraph1{
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+#section3-paragraph{
+    font-size: 18px;
+}
+
+#section1-div1 {
+   position: relative; left: 170px;
+}
+
+#section3-container{
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+#section3-col-text {
+    margin-top: 130px;
+    width: 540px;
+    height: 160px;
+}
+
+input::placeholder {
+   color: #9bb0c5;
+   font-weight: bold;
+   opacity: 65%;
+}
+
+h1 {
+   color:#9bb0c5;
+}
+
+h5 {
+   color: #9bb0c5;
+}
+
+p {
+    color:#9bb0c5
+}
+/* parte 4 */
+section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* A altura da seção será igual à altura da janela do navegador */
+}
+
+.section-content {
+    text-align: left;
+    display: inline-block;
+}
+
+.section-content ul {
+    list-style-type: disc; /* Adiciona bolinhas de identificação no início de cada item da lista */
+    padding-left: 20px; /* Ajuste o recuo da lista conforme necessário */
+    text-align: center;
+}
+
+.section-content li {
+    padding-left: 0;
+    text-indent: 0;
+}
+
+/* Ajuste o recuo específico para a linha 4 */
+.section-content .linha4 ul { /* O terceiro item da lista (índice 2) */
+    padding-left: 20px; /* Ajuste o valor conforme necessário para mover a linha para a esquerda */
+}
+
+/* Alinhar e justificar os parágrafos */
+.section-content p {
+    text-align: justify;
+}
+
+/* Estilo para a imagem */
+.imagem-i1 img {
+    float: left; /* Alinha a imagem à esquerda */
+    margin-right: 20px; /* Adiciona uma margem à direita da imagem para separá-la do texto */
+    margin-bottom: 20px; /* Adiciona espaço entre a imagem e o texto */
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    max-width: 600px; /* Ajuste a largura máxima conforme necessário */
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+}
+
+.texto {
+    white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+    text-align: center; /* Centraliza horizontalmente o texto */
+}
+
+/* parte 5 */
+.parte5 {
+    color:#9bb0c5;
+    background-color: #f4f5f9;
+    text-align: center; /* Centraliza horizontalmente o conteúdo dentro da div */
+}
+.texto2 {
+    display: inline-block; /* Permite que a div ocupe apenas o espaço necessário ao redor do conteúdo */
+    text-align: left; /* Alinha o texto à esquerda dentro da div */
+}
+.texto3 {
+    text-align: center; /* Centraliza horizontalmente o conteúdo da div */
+}
+
+.perfil-imagem {
+    display: flex; /* Exibe as imagens em linha */
+    justify-content: center; /* Centraliza horizontalmente as imagens */
+    align-items: center; /* Centraliza verticalmente as imagens */
+}
+
+.perfil-imagem img {
+    width: 100px; /* Largura das imagens (ajuste conforme necessário) */
+    margin: 0 10px; /* Espaçamento horizontal entre as imagens */
+    border-radius: 50%; /* Arredonda as bordas das imagens para torná-las circulares */
+}
+
+/* parte 6*/
+
+#nome{
+    background-color: white;
+    border: #9bb0c5 solid 1px;
+    width: 17%;
+    padding: 11px 30px;
+    border-radius: 4%;
+}
+     
+#email{
+    background-color: white;
+    border: #9bb0c5 solid 1px;
+    width: 17%;
+    padding: 11px 30px;
+    border-radius: 4%;
+    margin-left: 25px;
+}
+#enviar{
+    background-color: #6b8095;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 20%;
+    padding: 15px;
+    border: none;
+    margin-left: 25px;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+/*footer parte 6*/
+/* Estilos para a seção do rodapé */
+.roda-pe {
+    max-width: 100%; /* Largura máxima da seção para ocupar toda a largura da página */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    display: flex; /* Usa flexbox para ajustar o layout */
+    justify-content: space-between; /* Espaço uniformemente os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    background-color: #f4f5f9; /* Cor de fundo */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding-left: 5%; /* Adicione padding à esquerda (5% da largura da página) */
+    padding-right: 10%; /* Adicione padding à direita (5% da largura da página) */
+    padding-top: 20px; /* Espaçamento interno superior */
+    padding-bottom: 20px; /* Espaçamento interno inferior */
+    font-size: 15px; /* Tamanho da fonte */
+}
+
+/* Estilos para o logotipo */
+.logo-principal img {
+    width: 100px; /* Largura da imagem do logotipo (ajuste conforme necessário) */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para o texto de direitos autorais */
+.textod-part6 {
+    flex-grow: 1; /* Faz com que o texto ocupe o espaço restante */
+    text-align: center; /* Alinha o texto à direita dentro da div */
+}
